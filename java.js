@@ -9,3 +9,5 @@ function waitingFn(timeInMs) {
 }
 debugger;
 waitingFn(3000);
+
+connsole.log("Funtion has endend");
