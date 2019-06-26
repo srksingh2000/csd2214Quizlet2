@@ -17,9 +17,11 @@
             sunShape.x = 25;
             sunShape.y = 25;
             stage.addChild(sunShape);
+            createjs.Tween.get(sunShape, {
+                loop: true
+            })
             stage.update();
         }
-        3
     </script>
     <style>
         body {
@@ -45,4 +47,4 @@ This web browser does not support canvas.
 </canvas>
 </body>
 
-</html>s
+</html>
